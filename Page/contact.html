@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../Swipper/index_swipper.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <!-- ------- AOS --------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ------ Fixed Menu ---- -->
+    <section class="Section_bar" id="bar_head">
+        <nav class="container-fluid playwrite-au-qld p-0">
+            <div class="bg-info">
+                <div class="container p-0">
+                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between bar_menu">
+                        <div class="pt-3 d-none d-md-block">
+                            <ul class="d-flex gap-1 gap-md-3 flex-wrap justify-content-center p-0 m-0 ">
+                                <li><a href="###" class="fs-6"><i class="bi bi-geo-alt fs-6"></i> 271 / ស្ទឹងមានជ័យ /
+                                        ភ្នំពេញ</a></li>
+                                <li><a href="###" class="fs-6"><i class="bi bi-telephone-forward-fill fs-6"></i>
+                                        0963376704</a></li>
+                                <li><a href="###" class="fs-6"><i class="bi bi-envelope-arrow-down fs-6"></i>
+                                        yibunya9999@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <ul class="p-0 m-0 d-flex gap-3 justify-content-end">
+                                <li class=" profile_img_hover p-2">
+                                    <div class="align-content-center h-100 pos_icon_pro position-relative">
+                                        <a href="notification.html"><i class="fa-solid fa-bell fs-4 text-light"></i></a>
+                                        <div class="drop_cart position-absolute  bg-danger fw-bold text-light rounded-5">
+                                            2
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class=" profile_img_hover p-2">
+                                    <div class="align-content-center h-100 pos_icon_pro position-relative">
+                                        <a href="add_to_cart.html"><i class="fa-solid fa-cart-arrow-down fs-4 text-light"></i></a>
+                                        <div class="drop_cart position-absolute  bg-danger fw-bold text-light rounded-5">
+                                            3
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                                <li class="position-relative profile_img_hover p-2">
+                                    <div class="profile_img">
+                                        <img class="img-fluid" src="../img/profile.jpg" alt="">
+                                    </div>
+                                    <div class="pro_drop position-absolute ">
+                                        <ul class="p-0 d-flex flex-column gap-2">
+                                            <li><a href="view_video.html" class="fs-6"><i class="fa-solid fa-video"></i> មេរៀន</a></li>
+                                            <li><a href="login/landing.html" class="fs-6"><i class="fa-solid fa-right-from-bracket"></i> ចាកចេញ</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="d-flex justify-content-between menu_bar">
+                    <div class="pt-1">
+                        <a href="../index.html"> <img src="../img/By-logo.png" alt=""></a>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <ul class="d-flex gap-4 nav-item fs-5 fw-medium ">
+                            <li class=""><a href="../index.html" class="nav-link">ទំព័រដើម</a></li>
+
+                            <li><a href="../Page/service.html" class="nav-link">សេវាកម្ម</a></li>
+                            <li><a href="###" class="nav-link">ទំព័រ <i class="fa-solid fa-angle-down icon"></i></a>
+                                <div class="dropdown_navbar">
+                                    <a href="../Page/university.html">សកលវិទ្យាល័យ</a>
+                                    <a href="../Page/campus.html">សាខា</a>
+                                    <a href="../Page/blog_shop.html">ហាង</a>
+                                    <a href="../Page/faq.html">សំណួរ</a>
+                                    <a href="../Page/portfolio.html">កម្រងរូបភាព</a>
+                                </div>
+                            </li>
+                            <li><a href="../Page/BlogRight.html" class="nav-link">ប្លុក </a></li>
+                            <li><a href="../Page/course.html" class="nav-link">វគ្គសិក្សា</a></li>
+                            <li><a href="../Page/contact.html" class="nav-link">ទំនាក់ទំនង</a></li>
+                            <li><a href="../Page/about.html" class="nav-link">អំពីយើង</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a class="fs-3 text-dark d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample"><i class="bi bi-view-list"></i></a>
+                        <!-- <button class="btn btn-info text-light fs-5 d-none d-lg-block ">ទទួលយកឥឡូវនេះ</button> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- ---- Offcanvas in boostrap ---- -->
+        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="d-flex justify-content-center">
+                    <img src="../img/By-logo.png" alt="">
+                </div>
+                <div class="dropdown mt-5">
+                    <div class="accordion " id="accordionPanelsStayOpenExample">
+                        
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../index.html" class="text-decoration-none text-black fw-bold">ទំព័រដើម</a>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../Page/service.html"
+                                    class="text-decoration-none text-black fw-bold">សេវាកម្ម</a>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    ទំព័រ
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="iaccordon-body">
+                                    <ul class="p-0">
+                                        <li><a href="../Page/university.html">សកលវិទ្យាល័យ</a></li>
+                                        <li><a href="../Page/campus.html">សាខា</a></li>
+                                        <li><a href="../Page/blog_shop.html">ហាង</a></li>
+                                        <li><a href="../Page/faq.html">សំណួរ</a></li>
+                                        <li><a href="../Page/portfolio.html">កម្រងរូបភាព</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../Page/BlogRight.html"
+                                    class="text-decoration-none text-black fw-bold">ប្លុក</a>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../Page/course.html"
+                                    class="text-decoration-none text-black fw-bold">វគ្គសិក្សា</a>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../Page/contact.html"
+                                    class="text-decoration-none text-black fw-bold">ទំនាក់ទំនង</a>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="nodrop">
+                                <a href="../Page/about.html" class="text-decoration-none text-black fw-bold">អំពីយើង</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---- Scroll Fixed ---- -->
+    <section class="section_Scroll d-none z-3" id="scroll_bar">
+        <div class="container-fluid menu_Scroll fixed">
+            <div class="container ">
+                <div class="d-flex justify-content-between menu_bar">
+                    <div class="pt-1">
+                        <img src="../img/by_w_logo.png" alt="">
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <ul class="d-flex gap-4 pt-3 nav-item fs-5 fw-medium">
+                            <li><a href="../index.html" class="nav-link">ទំព័រដើម </a></li>
+
+                            <li><a href="../Page/service.html" class="nav-link">សេវាកម្ម</a></li>
+                            <li><a href="###" class="nav-link">ទំព័រ<i class="fa-solid fa-angle-down icon"></i></a>
+                                <div class="dropdown_navbar">
+                                    <a href="../Page/university.html">សកលវិទ្យាល័យ</a>
+                                    <a href="../Page/campus.html">សាខា</a>
+                                    <a href="../Page/blog_shop.html">ហាង</a>
+                                    <a href="../Page/faq.html">សំណួរ</a>
+                                    <a href="../Page/portfolio.html">កម្ររូបភាព</a>
+                                </div>
+                            </li>
+                            <li><a href="../Page/BlogRight.html" class="nav-link">ប្លុក </a></li>
+                            <li><a href="../Page/course.html" class="nav-link">វគ្គសិក្សា</a></li>
+                            <li><a href="../Page/contact.html" class="nav-link">ទំនាក់ទំនង</a></li>
+                            <li><a href="../Page/about.html" class="nav-link">អំពីយើង</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a class="fs-3 text-dark d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample"><i class="bi bi-view-list"></i>
+                        </a>
+                        <!-- <button class="btn btn-info text-light fs-5 d-none d-lg-block ">ទទួលយកឥឡូវនេះ</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----- Styky Menu ---- -->
+    <section class="section_Scroll d-none" id="bar_head_scroll">
+        <div class="position-fixed bottom-25 end-25 ">
+            <a href="#bar_head" class="btn btn-info text-light"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+    </section>
+    <!-- ------------ Section h2-video --------- -->
+    <section class="section-video">
+        <div class="container-fluid video_img">
+            <div class="blur d-flex flex-column">
+                <h3 class="fs-1" data-aos="zoom-in-left">ទំនាក់ទំនង</h3>
+                <div class="tilte_video fs-5" data-aos="zoom-in-up">
+                    <span>អ្នកនៅទីនេះ! >></span>
+                    <a href="../index.html">ទំព័រដើម</a>
+                    <span>>> ទំនាក់ទំនង</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-12" data-aos="fade-up">
+                    <div>
+                        <h1 class="fs-4 fw-bold text-primary">តើមានអ្វីអាចអោយពួកយើងជួយ?</h1>
+                        <span class="fw-medium text-secondary">ប្រើសិនបើរលោកនាក់មានបញ្ហា ចម្ងល់ ឬ
+                            មានសំណពរផ្សេងអាចធ្វើការ ផ្ញើរសា ឬ ទាក់ទង ទៅក្រុមការងារ​ BY​ បាន
+                            គ្រុមការងារយើងធ្វើការដោះស្រាយជូន</span>
+                        <div class="mt-4 d-flex flex-column gap-2">
+                            <div class="contact_us d-flex gap-3">
+                                <div class="contact_us_icon">
+                                    <i class="fa-regular fa-envelope fs-3 text-warning"></i>
+                                </div>
+                                <div>
+                                    <div class="contact_us_txt d-flex flex-column">
+                                        <span class="fs-6 fw-bold">ទំនាក់ទំនងតាមអុីមែល</span>
+                                        <span><a class="text-warning fw-medium"
+                                                href="#fff">yibunya9999@gmail.com</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact_us d-flex gap-3">
+                                <div class="contact_us_icon">
+                                    <i class="fa-solid fa-phone-volume fs-3 text-success"></i>
+                                </div>
+                                <div>
+                                    <div class="contact_us_txt d-flex flex-column">
+                                        <span class="fs-6 fw-bold">ទំនាក់ទំនងតាមលេខទូរសព្ទ័</span>
+                                        <span class="text-success fw-medium">0963376704</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact_us d-flex gap-3">
+                                <div class="contact_us_icon">
+                                    <i class="fa-brands fa-facebook fs-3 text-primary"></i>
+                                </div>
+                                <div>
+                                    <div class="contact_us_txt d-flex flex-column">
+                                        <span class="fs-6 fw-bold">សារហ្វេសប៊ុករបស់យើង</span>
+                                        <span class="text-primary fw-medium">សារហ្វេសប៊ុករបស់យើង <a
+                                                href="https://web.facebook.com/profile.php?id=100022300652781">BY</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="">
+                        <form class="form_contact" action="">
+                            <div class="form_contact_blur">
+                                <h2 class="fs-5 fw-bold text-info">យើងកំពុងរង់ចាំ</h2>
+                                <h1 class="h1 fw-bold text-light">ស្នើសុំ</h1>
+                                <div class="d-flex flex-column gap-4">
+                                    <input type="text" class="form-control rounded-0" placeholder="* ឈ្មោះរបស់អ្នក">
+                                    <input type="text" class="form-control rounded-0" placeholder="* Email របស់អ្នក">
+                                    <input type="text" class="form-control rounded-0 py-4"
+                                        placeholder="* ផ្ញើសារ">
+                                </div>
+                                <button class="btn btn-primary mt-3 text-light fw-medium">ផ្ញើសារ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7817.435509037807!2d104.89001050000002!3d11.572079900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1721287863079!5m2!1sen!2skh"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------- Fooder -------- -->
+    <section class="section_fooder">
+        <div class="container-fluid bg-info">
+            <div class="container mt-5">
+                <div class="row g-3">
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3" data-aos="fade-up">
+                        <div class="fooder_icon text-light">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="h-100 d-flex flex-column justify-content-center">
+                            <span class="text-light fw-medium fs-5">ផ្ញើសារមកយើង</span>
+                            <h4 class="fs-6">Info@example.com</h4>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3" data-aos="fade-up">
+                        <div class="fooder_icon text-light">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="h-100 d-flex flex-column justify-content-center">
+                            <span class="text-light fw-medium fs-5">ហៅមកយើងឥឡូវនេះ</span>
+                            <h4 class="fs-6">096 337 6704</h4>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3" data-aos="fade-up">
+                        <div class="fooder_icon text-light">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div class="h-100 d-flex flex-column justify-content-center">
+                            <span class="text-light fw-medium fs-5">អាសយដ្ឋានរបស់យើង</span>
+                            <h4 class="fs-6"> 271 / ស្ទឹងមានជ័យ / ភ្នំពេញ</h4>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3 pb-3" data-aos="fade-up">
+                        <div class="fooder_icon text-light">
+                            <i class="fa-solid fa-globe "></i>
+                        </div>
+                        <div class="h-100 d-flex flex-column justify-content-center">
+                            <span class="text-light fw-medium fs-5"> ចូលទៅកាន់គេហទំព័រ</span>
+                            <h4 class="fs-6">www.yibunya9999.com</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fooder_back">
+            <div class="container p-5">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-12">
+                        <div class="fooder_img">
+                            <a href="../index.html"><img src="../img/by_w_logo.png" alt=""></a>
+                        </div>
+                        <div>
+                            <p class="text-light font14px pt-4 fs-6">
+                                ការអប់រំគឺជាតម្រូវការមូលដ្ឋាននៃជីវិត។ វាជាអាំងតេក្រាលមួយ។
+                                ឧបករណ៍ដែលជួយដល់ការលូតលាស់ និងការអភិវឌ្ឍន៍ទាំងមូល។
+                            </p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <div class="btn btn-info text-light icon_socail" id="fb">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="btn btn-info text-light icon_socail">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                            <div class="btn btn-info text-light icon_socail" id="telegram">
+                                <i class="fa-brands fa-telegram"></i>
+                            </div>
+                            <div class="btn btn-info text-light icon_socail">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6">
+                        <div>
+                            <h4 class="text-light fs-5 foodh4_border">ធនធាន</h4>
+                        </div>
+                        <ul class="p-0 m-0 fooder_link pt-3">
+                            <li><a href="../Page/about.html">អំពីពួកយើង</a></li>
+                            <li><a href="../Page/blog_shop.html">កម្រងរូបភាពរបស់យើង​</a></li>
+                            <li><a href="../Page/service.html">សេវាកម្មរបស់យើង</a></li>
+                            <li><a href="../Page/portfolio.html">ក្រុមអ្នកជំនាញរបស់យើង</a></li>
+                            <li><a href="../Page/service.html">អតិថិជនរបស់យើង</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-md-6">
+                        <div>
+                            <h4 class="text-light fs-5 foodh4_border">វគ្គសិក្សា</h4>
+                        </div>
+                        <ul class="p-0 m-0 fooder_link pt-3">
+                            <li><a href="###">Web Design</a></li>
+                            <li><a href="###">Web Development</a></li>
+                            <li><a href="###">Marketing</a></li>
+                            <li><a href="###">Biology</a></li>
+                            <li><a href="###">Business</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-md-12">
+                        <div>
+                            <h4 class="text-light fs-5 foodh4_border">ប្រកាសថ្មីៗ</h4>
+                        </div>
+                        <div class="d-flex gap-3 pt-4">
+                            <div class="fooder_blog_img ">
+                                <img src="../img/blog1.jpg" alt="">
+                            </div>
+                            <div class="text-light fooder_blog_title">
+                                <span class="d-inline-block span_hover font14px">
+                                    គ្រូបង្រៀន តែងប្រើវិធីសាស្ត្រផ្សេងៗ ក្នុងការបង្រៀន តាមជំនាញ និង ឯកទេស របស់គាត់។
+                                </span>
+                                <span class="fw-medium">មិនា , 25 , ២០២៤</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 pt-4">
+                            <div class="fooder_blog_img ">
+                                <img src="../img/blog4.jpg" alt="">
+                            </div>
+                            <div class="text-light fooder_blog_title">
+                                <span class="d-inline-block span_hover font14px">
+                                    ការអប់រំ ជាវិធីចាត់ចែងបណ្តុះបណ្តាលនិងបង្រៀនបណ្តាអ្នករៀន។
+                                    អប់រំជាការអនុវត្តនៃគរុកោសល្យ,
+                                    អង្គមួយនៃការស្រាវជ្រាវទ្រឹស្តីនិងជាក់ស្តែងទាក់ទងនឹងការបង្រៀននិងការរៀន។
+                                </span>
+                                <span class="fw-medium">មិនា , ០៤, ២០២៤</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container fooder_border_top text-center py-4">
+                <p class="text-light fw-medium m-0">រក្សាសិទ្ធិ © BY Technology រក្សាសិទ្ធិគ្រប់យ៉ាង</p>
+            </div>
+        </div>
+    </section>
+    <!-- js-bootstrap -->
+    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- ------- js AOS --------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         window.onscroll = function () { myFunction() };
+        // Get the header
+        var header = document.getElementById("scroll_bar");
+        var bar_head_scroll = document.querySelector("#bar_head_scroll");
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > 130) {
+                header.classList.add("d-lg-block");
+                bar_head_scroll.classList.remove("d-none");
+            } else {
+                header.classList.remove("d-lg-block");
+                bar_head_scroll.classList.add("d-none");
+            }
+        }
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+        });
+    </script>
+</body>
+
+
+</html>

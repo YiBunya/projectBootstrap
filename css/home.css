@@ -1,0 +1,455 @@
+.univer_slide {
+    background-image: url(../img/e-sliderbg.jpg);
+    background-size: cover;
+}
+
+.univer_slide_img {
+    width: 100%;
+    height: 100%;
+}
+
+.univer_slide_title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.univer_slide_title button {
+    border: 1px solid black;
+    background-color: #ffffff00;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.univer_slide_title button:hover {
+    border: 1px solid #ffd500;
+    background-color: #ffd500;
+    color: #fff;
+}
+
+.item_cardBox_icon {
+    text-align: center;
+}
+
+.item_cardBox_icon img {
+    width: 100px;
+    color: #ffd500;
+}
+
+.item_cardBox_title {
+    text-align: center;
+}
+
+.item_cardBox_title span {
+    font-size: 14px;
+}
+
+.item_cardBox_title h1:hover {
+    color: #ffd500;
+}
+
+.box_univer_about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.box_univer_about ul li {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 600;
+    color: gray;
+}
+
+.box_univer_about ul li i {
+    color: #ffd500;
+}
+
+.box_univer_about_img {
+    display: flex;
+    justify-content: center;
+}
+
+.univer_btn_about {
+    border: none;
+    padding: 20px 30px;
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.univer_btn_about:hover {
+    background-color: #03045e;
+}
+
+.univer_join_imgbak {
+    background-image: url(../img/e-call-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.univer_join_title {
+    padding: 50px 100px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.univer_join_title_btn1 {
+    background-color: #ffd500;
+    color: #fff;
+    transition: .3s;
+    border: none;
+    padding: 20px 30px;
+}
+
+.univer_join_title_btn2 {
+    background-color: #ffd50000;
+    color: #fff;
+    transition: .3s;
+    border: 2px solid #ffd500;
+    padding: 20px 30px;
+}
+
+.univer_join_title_btn1:hover {
+    background-color: #03045e;
+
+}
+
+.univer_join_title_btn2:hover {
+    background-color: #ffd500;
+}
+
+.univer_itemBox_card {
+    border-radius: 10px;
+    background-color: aliceblue;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.univer_itemBox_card_img {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.univer_itemBox_card_title {
+    text-align: center;
+    color: #000;
+    transition: .3s;
+    padding: 30px 0px;
+}
+
+/* .univer_itemBox_card_title:hover {
+    background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+
+} */
+
+.back_img_video_univer {
+    background-image: url(../img/e-videobg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------  */
+.video_univer {
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    outline: none;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    background: #4ca5ff95;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation: pulse 2s ease-out infinite;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.video_univer:hover {
+    background: #03045e;
+
+}
+
+.video_univer span {
+    color: #fff !important;
+
+}
+
+.video_univer span {
+    margin: auto;
+    color: transparent;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    font-size: 16px;
+    transition: .3s;
+}
+
+.video_univer::after {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0px #e9ecef, 0 0 0 0px #e9ecef;
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        box-shadow: 0 0 0 15px rgba(0, 210, 255, 0), 0 0 0 30px rgba(0, 210, 255, 0);
+    }
+}
+
+/* ----------- */
+.video_univer_title {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.video_univer_title h1 {
+    color: #fff;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+
+
+.mySwiperUni {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.swiperUniSlide {
+    height: auto !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiperUniSlide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slideUniImg {
+    width: 100px;
+    height: 100px;
+}
+
+.titleUniSlide p,
+.titleUniSlide h1 {
+    text-align: start;
+}
+
+
+
+.Skills_background {
+    background-image: url(../img/e-callb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillUniTitle button {
+    transition: .3s;
+}
+
+.skillUniTitle button:hover {
+    background-color: #03045e !important;
+}
+
+.carousel {
+    z-index: -9999 !important;
+}
+
+.card_feture1 {
+    margin-top: -50px;
+    z-index: 99999 !important;
+}
+
+
+.slideBarCampusTitle {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.slide_item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    background-color: #fff !important;
+}
+
+.swiper_slideitem {
+    height: auto !important;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.box_item_slide_img {
+    width: 100%;
+
+}
+
+.box_item_slide_title {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: start;
+    border-top: 1px solid #415a77;
+}
+
+.star_slideitem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.slideitem_tittl_h4 {
+    letter-spacing: -1px;
+    padding-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+}
+
+.box_item_slide_title .btn-outline-warning:hover {
+    color: #fff !important;
+
+}
+
+
+.box_campus{
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    transition: .5s;
+}
+.box_campus:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #6c757d5d;
+}
+.box_campus:hover #campus_contact1,.box_campus:hover #campus_contact2,.box_campus:hover #campus_contact3,.box_campus:hover #campus_contact4{
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.box_campus .box_campus_txt h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical
+}
+.box_campus:hover .box_campus_txt h2{
+    color: #fff;
+}
+.box_campus_img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box_campus_img img{
+    transition: .3s;
+
+}
+.box_campus:hover .box_campus_img img{
+    transform: scale(1.1);
+
+}
+.box_detail_campus:hover p{
+    color: #000 !important;
+}
+.map_detail_campus {
+    width: 100% !important;
+    height: 100% !important; 
+    margin-top: 60px;
+}
+.map_detail_campus iframe{
+    width: 100% !important;
+    height: 300px !important; 
+}
+@media (max-width: 576px) {
+    .box_univer_about ul li {
+        font-size: 14px;
+    }
+    .slideBarCampusTitle {
+       padding-left: 30px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .box_univer_about ul li {
+        font-size: 14px;
+    }
+    .slideBarCampusTitle {
+       padding-left:0px;
+    }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box_univer_about ul li {
+        font-size: 12px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    .box_univer_about ul li {
+        font-size: 16px;
+    }
+    
+}

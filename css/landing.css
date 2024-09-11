@@ -1,0 +1,126 @@
+.bg_contain {
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.login {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login p {
+    margin: 0;
+    padding: 7px 30px;
+}
+
+.login .join:hover {
+    margin: 0;
+    color: #fff !important;
+}
+
+.login a {
+    text-decoration: none !important;
+}
+
+.icon_bar a {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.sub_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub_title h1 {
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.offcanvas {
+    margin-top: 60px;
+    height: 60px !important;
+}
+
+.offcanvas-body {
+    height: 30px !important;
+}
+
+.off_text {
+    display: flex;
+    gap: 10px;
+}
+
+.off_text a {
+    text-decoration: none;
+}
+
+.lan_bod {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------ Register ---- */
+.reg_title h1:nth-child(1) {
+    color: #03045e;
+}
+
+.reg_title h1:nth-child(2) {
+    color: #023e8a;
+}
+
+.reg_title p {
+    color: #b7b7a4;
+}
+
+.card_reg {
+    width: 100%;
+    display: flex;
+    border: 1.5px solid #b7b7a4;
+    border-radius: 20px;
+}
+
+.card_reg .box_img {
+    width: 100%;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.card_reg .box_img a {
+    display: inline-block;
+    font-size: 60px;
+    color: #000;
+    padding: 10px 0px;
+    transition: .5s;
+}
+
+.box_title h1 {
+    margin-top: 27px;
+    transition: .3s;
+}
+
+
+.card_reg:hover {
+    border: 1.5px solid #00b4d8;
+}
+
+.card_reg:hover a {
+    color: #00b4d8;
+}
+
+.card_reg:hover h1 {
+    color: #00b4d8;
+}
+.log_text h1{
+    line-height: 33px;
+}
