@@ -224,8 +224,8 @@
     <section class="section-video mt-5" >
         <div class="container-fluid video_about_img">
             <div class="blur d-flex flex-column">
-                <h3 class="fs-1">សំណួរ</h3>
-                <div class="tilte_video fs-5">
+                <h3 class="fs-1" data-aos="zoom-in-right">សំណួរ</h3>
+                <div class="tilte_video fs-5" data-aos="zoom-in-left">
                     <span>អ្នកនៅទីនេះ! >></span>
                     <a href="../index.html">ទំព័រដើម</a>
                     <span>>> សំណួរ</span>
@@ -239,7 +239,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 " >
+                    <div class="col-xl-6 "  data-aos="fade-up">
                         <div class="box_univer_about py-5">
                             <div class="box_univer_about_title">
                                 <h1 class="fw-bold fs-5 text-info">អ្វី​ជា​គោលដៅ​ចម្បង​របស់​យើង</h1>
@@ -274,7 +274,7 @@
                             <button class="univer_btn_about fs-5 mt-4">ស្វែងយល់បន្ថែម</button>
                         </div>
                     </div>
-                    <div class="col-xl-6" >
+                    <div class="col-xl-6"  data-aos="fade-up">
                         <div class="box_univer_about_img">
                             <img class="img-fluid" src="../img/Economics.png" alt="">
                         </div>
@@ -288,7 +288,7 @@
     <section class="section_Faq mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-12" >
+                <div class="col-xl-6 col-lg-6 col-12"  data-aos="fade-up">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -366,7 +366,7 @@
 
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 clo-12" >
+                <div class="col-xl-6 col-lg-6 clo-12"  data-aos="fade-up">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -471,7 +471,7 @@
         <div class="container-fluid bg-info" >
             <div class="container mt-5">
                 <div class="row g-3">
-                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3">
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3"  data-aos="fade-up">
                         <div class="fooder_icon text-light">
                             <i class="fa-solid fa-envelope"></i>
                         </div>
@@ -480,7 +480,7 @@
                             <h4 class="fs-6">Info@example.com</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3">
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3"  data-aos="fade-up">
                         <div class="fooder_icon text-light">
                             <i class="fa-solid fa-phone"></i>
                         </div>
@@ -489,7 +489,7 @@
                             <h4 class="fs-6">096 337 6704</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3">
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3"  data-aos="fade-up">
                         <div class="fooder_icon text-light">
                             <i class="fa-solid fa-map-location-dot"></i>
                         </div>
@@ -498,7 +498,7 @@
                             <h4 class="fs-6"> 271 / ស្ទឹងមានជ័យ / ភ្នំពេញ</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3 pb-3">
+                    <div class="col-xl-3 col-md-6 d-flex gap-4 p-md-3 pb-3"  data-aos="fade-up">
                         <div class="fooder_icon text-light">
                             <i class="fa-solid fa-globe "></i>
                         </div>
@@ -603,6 +603,10 @@
     <!-- js-bootstrap -->
     <script src="../bootstrap/bootstrap.bundle.min.js"></script>
     <script>
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+        });
          window.onscroll = function () { myFunction() };
         // Get the header
         var header = document.getElementById("scroll_bar");
