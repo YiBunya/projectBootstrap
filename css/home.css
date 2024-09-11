@@ -372,6 +372,7 @@
     border-radius: 10px 10px 0 0;
     overflow: hidden;
     transition: .5s;
+    background-color: #6c757d34;
 }
 .box_campus:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

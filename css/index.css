@@ -130,9 +130,10 @@ body {
 }
 .menu_bar .nav-item{
     margin: 0px;
+    padding: 0px !important;
 }
 .menu_bar .nav-item li{
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
     padding: 24px 0px;
     height: auto;
 }
