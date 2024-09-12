@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../../css/landing.css">
     <link rel="stylesheet" href="../../css/contact.css">
     <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css">
+    <!-- ------ AOS --------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Register </title>
@@ -84,19 +86,19 @@
             <div class="row g-5 m-0">
 
                 <div class="col-xl-6 col-lg-6 col-md-5 col-12 p-0">
-                    <div class="log_text">
+                    <div class="log_text" data-aos="fade-up">
                         <h1 class="fs-5" style="text-indent: 40px;">
                             អ្នកអាចចូលរួមដើម្បីបង្កើតកម្រងព័ត៌មានគណនីរបស់អ្នកជាមួយនឹងព័ត៌មានផ្ទាល់ខ្លួន ការអប់រំ
                             បទពិសោធន៍ ជំនាញ ។ លើសពីនេះ អ្នកអាចមានឱកាសទទួលបានអាហារូបករណ៍ក្នុងវិស័យព័ត៌មានវិទ្យា
                             ដែលផ្តល់ដោយ​ <span class="text-primary">BY Teachnology</span> ។
                         </h1>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="100">
                         <img class="img-fluid" src="../../img/banner.png" alt="">
                     </div>
                     
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-7 col-12 ">
+                <div class="col-xl-6 col-lg-6 col-md-7 col-12 " data-aos="fade-up">
                     <div class="position-sticky top-0">
                         <form action="#" class="bg-light p-3 rounded-4">
 
@@ -165,6 +167,14 @@
 
 
     <script src="../../bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- ------- AOS --------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+        });
+    </script>
 </body>
-
+    
 </html>
