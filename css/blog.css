@@ -135,8 +135,23 @@
 
 .card_list_title p {
     line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
-
+/* .card_list_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.card-list-pc{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .card_list_img_pc {
     width: 100% !important;
     height: 100% !important;
@@ -331,6 +346,11 @@
         height: 100%;
         object-fit: cover;
     }
+    .card-list-pc{
+        width: 100% !important;
+        height: 63% !important;
+        object-fit: cover !important;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -343,6 +363,11 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .card-list-pc{
+        width: 100% !important;
+        height: 85% !important;
+        object-fit: cover !important;
     }
 }
 
@@ -357,6 +382,11 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .card-list-pc{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
     }
 }
 
