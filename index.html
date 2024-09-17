@@ -787,7 +787,7 @@
                                 </p>
                             </div>
                             <div>
-                                <button class="blog_btn">អានបន្ថែម</button>
+                                <button class="blog_btn" onclick="open_blog()">អានបន្ថែម</button>
                             </div>
                         </div>
                     </div>
@@ -818,7 +818,7 @@
                                 </p>
                             </div>
                             <div>
-                                <button class="blog_btn">អានបន្ថែម</button>
+                                <button class="blog_btn" onclick="open_blog()">អានបន្ថែម</button>
                             </div>
                         </div>
                     </div>
@@ -848,7 +848,7 @@
                                 </p>
                             </div>
                             <div>
-                                <button class="blog_btn">អាន​បន្ថែម</button>
+                                <button class="blog_btn" onclick="open_blog()">អាន​បន្ថែម</button>
                             </div>
                         </div>
                     </div>
@@ -866,7 +866,7 @@
                 </div>
                 <div class="col-xl-6 col-md-6" data-aos="zoom-in">
                     <div class="input-group mt-5">
-                        <input type="text" class="form-control border-info py-4" placeholder="Enter Your Email"
+                        <input type="text" class="form-control border-info py-4" placeholder="សូមបំពេញ Email"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <span class="input-group-text text-light fs-5 bg-info" id="basic-addon2">កក់ឥឡូវនេះ</span>
                     </div>
@@ -1104,6 +1104,12 @@
                 prevEl: ".swiper-button-prev",
             },
         });
+        document.querySelector(".video_univer_title").onclick = () => {
+            location="https://www.youtube.com/watch?v=yAaYgfSNTxQ";
+        }
+        function open_blog(){
+            location="Page/cart_blog.html";
+        }
     </script>
 </body>
 

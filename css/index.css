@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&display=swap');    
 * {
     font-family: "Kantumruy Pro", sans-serif;
+}
+input::placeholder{
+    font-family: "Noto Serif Khmer", serif !important;
 }
 
 .font10px {
