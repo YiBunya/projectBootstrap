@@ -252,7 +252,7 @@
 
 .box_Time {
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.577);
     text-align: center;
@@ -342,12 +342,17 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    
     .service_title_h1 {
         font-size: 30px;
+        padding: 30px;
     }
 
     .service_title_p {
         font-size: 14px;
+    }
+    .box_Time{
+        padding: 15px;
     }
 }
 
@@ -371,7 +376,9 @@
     .service_title_h1 {
         font-size: 40px;
     }
-
+    .box_Time{
+        padding: 15px;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
