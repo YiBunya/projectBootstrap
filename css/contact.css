@@ -377,7 +377,7 @@
         font-size: 40px;
     }
     .box_Time{
-        padding: 15px;
+        padding: 25px;
     }
 }
 
@@ -392,6 +392,7 @@
         height: 400px;
         margin-left: 0%;
     }
+    
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
